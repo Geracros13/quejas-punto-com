@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+// import Header from './components/Header';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( 
+        <div className="container-queja">
+            <form className="form-envio-queja">
+                <label>
+                    Nombre del comercio: 
+                <input type="text" />
+                </label>
+                <label>
+                    Direccion: 
+                <input type="text" />
+                </label>
+                <label>
+                    Departamento: 
+                <input type="text" />
+                </label>
+                <label>
+                    Municipio: 
+                <input type="text" />
+                </label>
+                <label>
+                    Descripcion de la queja:
+                <textarea />
+                </label>
+                <input className="btn-enviar" type="submit" value="Registrar queja" />
+            </form>
+        </div>
+    );
 }
 
 export default App;

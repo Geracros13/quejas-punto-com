@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+.header{
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+
+.header a {
+  padding: 15px 25px 0 0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-logo img{
+  height: 300px;
 }
+/* Header */
+
+
+/* Footer */
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+/* Footer */
+
+
+/* App formulario */
+.container-queja{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-envio-queja{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-envio-queja label{
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.btn-enviar{
+  width: auto;
+  height: 45px;
+  border-radius: 21px;
+  margin-top: 25px;
+  background: transparent;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  border: 1px solid white; 
+  cursor: pointer;
+}
+.btn-enviar:hover{
+  background-color: #3137db;
+}
+
+
+/* App formulario */
