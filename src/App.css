@@ -66,6 +66,20 @@
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   color: white;
+  margin-top: 25px;
+}
+
+input{
+  margin-left: 15px;
+  height: 25px;
+  width: 500px;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+textarea{
+  margin-top: 15px;
+  height: 150px;
+  padding: 10px;
 }
 
 .btn-enviar{

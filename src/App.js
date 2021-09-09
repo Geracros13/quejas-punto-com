@@ -23,8 +23,8 @@ function App() {
                 </label>
                 <label>
                     Descripcion de la queja:
-                <textarea />
                 </label>
+                <textarea />
                 <input className="btn-enviar" type="submit" value="Registrar queja" />
             </form>
         </div>
