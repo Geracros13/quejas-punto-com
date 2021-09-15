@@ -1,10 +1,24 @@
+import React, { useState, useEffect } from "react";
 import './App.css';
-// import Header from './components/Header';
+import Axios from "axios";
 
 function App() {
+
+    const [descripcionQueja, setDescripcionQueja] = useState("");
+
+
+    const submitQueja = ()=>{
+        Axios.post("http://localhost:5000/queja/insertar", {
+            descripcionQueja: descripcionQueja
+        }).then(() => {
+            alert("Queja insertada exitosamente")
+        })
+    }
+
+
     return ( 
         <div className="container-queja">
-            <form className="form-envio-queja">
+            <div className="form-envio-queja">
                 <label>
                     Nombre del comercio: 
                 <input type="text" />
@@ -24,9 +38,12 @@ function App() {
                 <label>
                     Descripcion de la queja:
                 </label>
-                <textarea />
+                <textarea name="descripcionQueja" onChange={(e)=>{
+                    setDescripcionQueja(e.target.value)
+                }} />
                 <input className="btn-enviar" type="submit" value="Registrar queja" />
-            </form>
+                <button onClick={submitQueja}>Submit</button>
+            </div>
         </div>
     );
 }
