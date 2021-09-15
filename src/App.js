@@ -41,8 +41,8 @@ function App() {
                 <textarea name="descripcionQueja" onChange={(e)=>{
                     setDescripcionQueja(e.target.value)
                 }} />
-                <input className="btn-enviar" type="submit" value="Registrar queja" />
-                <button onClick={submitQueja}>Submit</button>
+                {/* <input className="btn-enviar" type="submit" value="Registrar queja" /> */}
+                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
             </div>
         </div>
     );
