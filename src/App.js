@@ -20,14 +20,6 @@ function App() {
         <div className="container-queja">
             <div className="form-envio-queja">
                 <label>
-                    Nombre del comercio: 
-                <input type="text" />
-                </label>
-                <label>
-                    Direccion: 
-                <input type="text" />
-                </label>
-                <label>
                     Departamento: 
                 <input type="text" />
                 </label>
@@ -36,12 +28,19 @@ function App() {
                 <input type="text" />
                 </label>
                 <label>
+                    Nombre del comercio: 
+                <input type="text" />
+                </label>
+                <label>
+                    Direccion: 
+                <input type="text" />
+                </label>
+                <label>
                     Descripcion de la queja:
                 </label>
                 <textarea name="descripcionQueja" onChange={(e)=>{
                     setDescripcionQueja(e.target.value)
                 }} />
-                {/* <input className="btn-enviar" type="submit" value="Registrar queja" /> */}
                 <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
             </div>
         </div>
