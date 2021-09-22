@@ -44,9 +44,6 @@ function App() {
 
     /**Departamento (fin)*/
 
-
-    
-
     return ( 
         <div className="container-queja">
             <div className="form-envio-queja">
@@ -55,13 +52,7 @@ function App() {
                         placeholder="Seleccione un Departamento"
                         options={allDepartamentos}
                         value={inicio}
-                        // onSelect={idDepartamento}
                         onChange={(value)=>setInicio(value)}
- 
-
-                        // onChange={(value)=>uss(value)}
-                        // onSelect={(value) => console.log('selected!', value)} // always fires once a selection happens even if there is no change
-                            // onClose={(closedBySelection) => console.log('closedBySelection?:', closedBySelection)}
                     />
 
                 <label>
