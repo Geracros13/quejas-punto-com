@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alta Verapaz"
+    },
+    {
+        "id": 2,
+        "nombre": "Baja Verapaz"
+    },
+    {
+        "id": 3,
+        "nombre": "Petén"
+    },
+    {
+        "id": 4,
+        "nombre": "Chimaltenango"
+    },
+    {
+        "id": 5,
+        "nombre": "Sacatepéquez"
+    },
+    {
+        "id": 6,
+        "nombre": "Escuintla"
+    },
+    {
+        "id": 7,
+        "nombre": "Guatemala"
+    },
+    {
+        "id": 8,
+        "nombre": "Izabal"
+    },
+    {
+        "id": 9,
+        "nombre": "Chiquimula"
+    },
+    {
+        "id": 10,
+        "nombre": "Zacapa"
+    },
+    {
+        "id": 11,
+        "nombre": "El progreso"
+    },
+    {
+        "id": 12,
+        "nombre": "Jutiapa"
+    },
+    {
+        "id": 13,
+        "nombre": "Jalapa"
+    },
+    {
+        "id": 14,
+        "nombre": "Santa Rosa"
+    },
+    {
+        "id": 15,
+        "nombre": "San Marcos"
+    },
+    {
+        "id": 16,
+        "nombre": "Quetzaltenango"
+    },
+    {
+        "id": 17,
+        "nombre": "Totonicapán"
+    },
+    {
+        "id": 18,
+        "nombre": "Sololá"
+    },
+    {
+        "id": 19,
+        "nombre": "Retalhuleu"
+    },
+    {
+        "id": 20,
+        "nombre": "Suchitepéquez"
+    },
+    {
+        "id": 21,
+        "nombre": "Huehuetenango"
+    },
+    {
+        "id": 22,
+        "nombre": "Quiché"
+    }
+]

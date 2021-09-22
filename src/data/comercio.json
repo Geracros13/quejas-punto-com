@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pollo Campero"
+    },
+    {
+        "id": 2,
+        "nombre": "Payless"
+    },
+    {
+        "id": 3,
+        "nombre": "GNC"
+    },
+    {
+        "id": 4,
+        "nombre": "Distelsa"
+    },
+    {
+        "id": 5,
+        "nombre": "Puntocel"
+    },
+    {
+        "id": 6,
+        "nombre": "Mega Paca"
+    },
+    {
+        "id": 7,
+        "nombre": "Dominos Pizza"
+    },
+    {
+        "id": 8,
+        "nombre": "MAX"
+    },
+    {
+        "id": 9,
+        "nombre": "Intelaf"
+    },
+    {
+        "id": 10,
+        "nombre": "Guatemala Digital"
+    },
+    {
+        "id": 11,
+        "nombre": "Electra"
+    },
+    {
+        "id": 12,
+        "nombre": "La Curacao"
+    },
+    {
+        "id": 13,
+        "nombre": "Pizza hut"
+    },
+    {
+        "id": 14,
+        "nombre": "Celasa"
+    },
+    {
+        "id": 15,
+        "nombre": "Billion Home"
+    },
+    {
+        "id": 16,
+        "nombre": "Dollar City"
+    },
+    {
+        "id": 17,
+        "nombre": "Dunkin Donuts"
+    },
+    {
+        "id": 18,
+        "nombre": "Mc Donals"
+    },
+    {
+        "id": 19,
+        "nombre": "Lai lai"
+    },
+    {
+        "id": 20,
+        "nombre": "Muebles Fiesta"
+    }
+]

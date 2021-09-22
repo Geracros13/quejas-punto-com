@@ -1,0 +1,1692 @@
+[
+    {
+        "idMunicipio": 1,
+        "nombreMunicipio": "Chahal",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 2,
+        "nombreMunicipio": "Chisec",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 3,
+        "nombreMunicipio": "Cobán",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 4,
+        "nombreMunicipio": "Fray Bartolomé de las Casas",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 5,
+        "nombreMunicipio": "La Tinta",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 6,
+        "nombreMunicipio": "Lanquín",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 7,
+        "nombreMunicipio": "Panzós",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 8,
+        "nombreMunicipio": "Raxruhá",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 9,
+        "nombreMunicipio": "San Cristóbal Verapaz",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 10,
+        "nombreMunicipio": "San Juan Chamelco",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 11,
+        "nombreMunicipio": "San Pedro Carchá",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 12,
+        "nombreMunicipio": "Santa Cruz Verapaz",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 13,
+        "nombreMunicipio": "Santa María Cahabón",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 14,
+        "nombreMunicipio": "Senahú",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 15,
+        "nombreMunicipio": "Tamahú",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 16,
+        "nombreMunicipio": "Tactic",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 17,
+        "nombreMunicipio": "Tucurú",
+        "idDepartamento": 1
+    },
+    {
+        "idMunicipio": 18,
+        "nombreMunicipio": "Cubulco",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 19,
+        "nombreMunicipio": "Granados",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 20,
+        "nombreMunicipio": "Purulhá",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 21,
+        "nombreMunicipio": "Rabinal",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 22,
+        "nombreMunicipio": "Salamá",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 23,
+        "nombreMunicipio": "San Jerónimo",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 24,
+        "nombreMunicipio": "San Miguel Chicaj",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 25,
+        "nombreMunicipio": "Santa Cruz el Chol",
+        "idDepartamento": 2
+    },
+    {
+        "idMunicipio": 26,
+        "nombreMunicipio": "Dolores",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 27,
+        "nombreMunicipio": "El Chal",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 28,
+        "nombreMunicipio": "Ciudad Flores",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 29,
+        "nombreMunicipio": "La Libertad",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 30,
+        "nombreMunicipio": "Las Cruces",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 31,
+        "nombreMunicipio": "Melchor de Mencos",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 32,
+        "nombreMunicipio": "Poptún",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 33,
+        "nombreMunicipio": "San Andrés",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 34,
+        "nombreMunicipio": "San Benito",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 35,
+        "nombreMunicipio": "San Francisco",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 36,
+        "nombreMunicipio": "San José",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 37,
+        "nombreMunicipio": "San Luis",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 38,
+        "nombreMunicipio": "Santa Ana",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 39,
+        "nombreMunicipio": "Sayaxché",
+        "idDepartamento": 3
+    },
+    {
+        "idMunicipio": 40,
+        "nombreMunicipio": "Acatenango",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 41,
+        "nombreMunicipio": "Chimaltenango",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 42,
+        "nombreMunicipio": "El Tejar",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 43,
+        "nombreMunicipio": "Parramos",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 44,
+        "nombreMunicipio": "Patzicía",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 45,
+        "nombreMunicipio": "Patzún",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 46,
+        "nombreMunicipio": "Pochuta",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 47,
+        "nombreMunicipio": "San Andrés Itzapa",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 48,
+        "nombreMunicipio": "San José Poaquíl",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 49,
+        "nombreMunicipio": "San Juan Comalapa",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 50,
+        "nombreMunicipio": "San Martín Jilotepeque",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 51,
+        "nombreMunicipio": "Santa Apolonia",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 52,
+        "nombreMunicipio": "Santa Cruz Balanyá",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 53,
+        "nombreMunicipio": "Tecpán",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 54,
+        "nombreMunicipio": "Yepocapa",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 55,
+        "nombreMunicipio": "Zaragoza",
+        "idDepartamento": 4
+    },
+    {
+        "idMunicipio": 56,
+        "nombreMunicipio": "Alotenango",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 57,
+        "nombreMunicipio": "Ciudad Vieja",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 58,
+        "nombreMunicipio": "Jocotenango",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 59,
+        "nombreMunicipio": "Antigua Guatemala",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 60,
+        "nombreMunicipio": "Magdalena Milpas Altas",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 61,
+        "nombreMunicipio": "Pastores",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 62,
+        "nombreMunicipio": "San Antonio Aguas Calientes",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 63,
+        "nombreMunicipio": "San Bartolomé Milpas Altas",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 64,
+        "nombreMunicipio": "San Lucas Sacatepéquez",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 65,
+        "nombreMunicipio": "San Miguel Dueñas",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 66,
+        "nombreMunicipio": "Santa Catarina Barahona",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 67,
+        "nombreMunicipio": "Santa Lucía Milpas Altas",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 68,
+        "nombreMunicipio": "Santa María de Jesús",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 69,
+        "nombreMunicipio": "Santiago Sacatepéquez",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 70,
+        "nombreMunicipio": "Santo Domingo Xenacoj",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 71,
+        "nombreMunicipio": "Sumpango",
+        "idDepartamento": 5
+    },
+    {
+        "idMunicipio": 72,
+        "nombreMunicipio": "Escuintla",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 73,
+        "nombreMunicipio": "Guanagazapa",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 74,
+        "nombreMunicipio": "Iztapa",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 75,
+        "nombreMunicipio": "La Democracia",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 76,
+        "nombreMunicipio": "La Gomera",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 77,
+        "nombreMunicipio": "Masagua",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 78,
+        "nombreMunicipio": "Nueva Concepción",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 79,
+        "nombreMunicipio": "Palín",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 80,
+        "nombreMunicipio": "San José",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 81,
+        "nombreMunicipio": "San Vicente Pacaya",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 82,
+        "nombreMunicipio": "Santa Lucía Cotzumalguapa",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 83,
+        "nombreMunicipio": "Siquinalá",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 84,
+        "nombreMunicipio": "Tiquisate",
+        "idDepartamento": 6
+    },
+    {
+        "idMunicipio": 85,
+        "nombreMunicipio": "Amatitlán",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 86,
+        "nombreMunicipio": "Chinautla",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 87,
+        "nombreMunicipio": "Chuarrancho",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 88,
+        "nombreMunicipio": "Guatemala",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 89,
+        "nombreMunicipio": "Fraijanes",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 90,
+        "nombreMunicipio": "Mixco",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 91,
+        "nombreMunicipio": "Palencia",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 92,
+        "nombreMunicipio": "San José del Golfo",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 93,
+        "nombreMunicipio": "San José Pinula",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 94,
+        "nombreMunicipio": "San Juan Sacatepéquez",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 95,
+        "nombreMunicipio": "San Miguel Petapa",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 96,
+        "nombreMunicipio": "San Pedro Ayampuc",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 97,
+        "nombreMunicipio": "San Pedro Sacatepéquez",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 98,
+        "nombreMunicipio": "San Raymundo",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 99,
+        "nombreMunicipio": "Santa Catarina Pinula",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 100,
+        "nombreMunicipio": "Villa Canales",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 101,
+        "nombreMunicipio": "Villa Nueva",
+        "idDepartamento": 7
+    },
+    {
+        "idMunicipio": 102,
+        "nombreMunicipio": "El Estor",
+        "idDepartamento": 8
+    },
+    {
+        "idMunicipio": 103,
+        "nombreMunicipio": "Livingston",
+        "idDepartamento": 8
+    },
+    {
+        "idMunicipio": 104,
+        "nombreMunicipio": "Los Amates",
+        "idDepartamento": 8
+    },
+    {
+        "idMunicipio": 105,
+        "nombreMunicipio": "Morales",
+        "idDepartamento": 8
+    },
+    {
+        "idMunicipio": 106,
+        "nombreMunicipio": "Puerto Barrios",
+        "idDepartamento": 8
+    },
+    {
+        "idMunicipio": 107,
+        "nombreMunicipio": "Camotán",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 108,
+        "nombreMunicipio": "Chiquimula",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 109,
+        "nombreMunicipio": "Concepción Las Minas",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 110,
+        "nombreMunicipio": "Esquipulas",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 111,
+        "nombreMunicipio": "Ipala",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 112,
+        "nombreMunicipio": "Jocotán",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 113,
+        "nombreMunicipio": "Olopa",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 114,
+        "nombreMunicipio": "Quezaltepeque",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 115,
+        "nombreMunicipio": "San Jacinto",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 116,
+        "nombreMunicipio": "San José la Arada",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 117,
+        "nombreMunicipio": "San Juan Ermita",
+        "idDepartamento": 9
+    },
+    {
+        "idMunicipio": 118,
+        "nombreMunicipio": "Cabañas",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 119,
+        "nombreMunicipio": "Estanzuela",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 120,
+        "nombreMunicipio": "Gualán",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 121,
+        "nombreMunicipio": "Huité",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 122,
+        "nombreMunicipio": "La Unión",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 123,
+        "nombreMunicipio": "Río Hondo",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 124,
+        "nombreMunicipio": "San Diego",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 125,
+        "nombreMunicipio": "San Jorge",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 126,
+        "nombreMunicipio": "Teculután",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 127,
+        "nombreMunicipio": "Usumatlán",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 128,
+        "nombreMunicipio": "Zacapa",
+        "idDepartamento": 10
+    },
+    {
+        "idMunicipio": 129,
+        "nombreMunicipio": "El Jícaro",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 130,
+        "nombreMunicipio": "Guastatoya",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 131,
+        "nombreMunicipio": "Morazán",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 132,
+        "nombreMunicipio": "San Agustín Acasaguastlán",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 133,
+        "nombreMunicipio": "San Antonio La Paz",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 134,
+        "nombreMunicipio": "San Cristóbal Acasaguastlán",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 135,
+        "nombreMunicipio": "Sanarate",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 136,
+        "nombreMunicipio": "Sansare",
+        "idDepartamento": 11
+    },
+    {
+        "idMunicipio": 137,
+        "nombreMunicipio": "Agua Blanca",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 138,
+        "nombreMunicipio": "Asunción Mita",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 139,
+        "nombreMunicipio": "Atescatempa",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 140,
+        "nombreMunicipio": "Comapa",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 141,
+        "nombreMunicipio": "Conguaco",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 142,
+        "nombreMunicipio": "El Adelanto",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 143,
+        "nombreMunicipio": "El Progreso",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 144,
+        "nombreMunicipio": "Jalpatagua",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 145,
+        "nombreMunicipio": "Jerez",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 146,
+        "nombreMunicipio": "Jutiapa",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 147,
+        "nombreMunicipio": "Moyuta",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 148,
+        "nombreMunicipio": "Pasaco",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 149,
+        "nombreMunicipio": "Quesada",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 150,
+        "nombreMunicipio": "San José Acatempa",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 151,
+        "nombreMunicipio": "Santa Catarina Mita",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 152,
+        "nombreMunicipio": "Yupiltepeque",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 153,
+        "nombreMunicipio": "Zapotitlán",
+        "idDepartamento": 12
+    },
+    {
+        "idMunicipio": 154,
+        "nombreMunicipio": "Jalapa",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 155,
+        "nombreMunicipio": "Mataquescuintla",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 156,
+        "nombreMunicipio": "Monjas",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 157,
+        "nombreMunicipio": "San Carlos Alzatate",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 158,
+        "nombreMunicipio": "San Luis Jilotepeque",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 159,
+        "nombreMunicipio": "San Manuel Chaparrón",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 160,
+        "nombreMunicipio": "San Pedro Pinula",
+        "idDepartamento": 13
+    },
+    {
+        "idMunicipio": 161,
+        "nombreMunicipio": "Barberena",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 162,
+        "nombreMunicipio": "Casillas",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 163,
+        "nombreMunicipio": "Chiquimulilla",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 164,
+        "nombreMunicipio": "Cuilapa",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 165,
+        "nombreMunicipio": "Guazacapán",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 166,
+        "nombreMunicipio": "Nueva Santa Rosa",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 167,
+        "nombreMunicipio": "Oratorio",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 168,
+        "nombreMunicipio": "Pueblo Nuevo Viñas",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 169,
+        "nombreMunicipio": "San Juan Tecuaco",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 170,
+        "nombreMunicipio": "San Rafael las Flores",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 171,
+        "nombreMunicipio": "Santa Cruz Naranjo",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 172,
+        "nombreMunicipio": "Santa María Ixhuatán",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 173,
+        "nombreMunicipio": "Santa Rosa de Lima",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 174,
+        "nombreMunicipio": "Taxisco",
+        "idDepartamento": 14
+    },
+    {
+        "idMunicipio": 175,
+        "nombreMunicipio": "Ayutla",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 176,
+        "nombreMunicipio": "Catarina",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 177,
+        "nombreMunicipio": "Comitancillo",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 178,
+        "nombreMunicipio": "Concepción Tutuapa",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 179,
+        "nombreMunicipio": "El Quetzal",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 180,
+        "nombreMunicipio": "El Tumbador",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 181,
+        "nombreMunicipio": "Esquipulas Palo Gordo",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 182,
+        "nombreMunicipio": "Ixchiguán",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 183,
+        "nombreMunicipio": "La Blanca",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 184,
+        "nombreMunicipio": "La Reforma",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 185,
+        "nombreMunicipio": "Malacatán",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 186,
+        "nombreMunicipio": "Nuevo Progreso",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 187,
+        "nombreMunicipio": "Ocós",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 188,
+        "nombreMunicipio": "Pajapita",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 189,
+        "nombreMunicipio": "Río Blanco",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 190,
+        "nombreMunicipio": "San Antonio Sacatepéquez",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 191,
+        "nombreMunicipio": "San Cristóbal Cucho",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 192,
+        "nombreMunicipio": "San José El Rodeo",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 193,
+        "nombreMunicipio": "San José Ojetenam",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 194,
+        "nombreMunicipio": "San Lorenzo",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 195,
+        "nombreMunicipio": "San Marcos",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 196,
+        "nombreMunicipio": "San Miguel Ixtahuacán",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 197,
+        "nombreMunicipio": "San Pablo",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 198,
+        "nombreMunicipio": "San Pedro Sacatepéquez",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 199,
+        "nombreMunicipio": "San Rafael Pie de la Cuesta",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 200,
+        "nombreMunicipio": "Sibinal",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 201,
+        "nombreMunicipio": "Sipacapa",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 202,
+        "nombreMunicipio": "Tacaná",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 203,
+        "nombreMunicipio": "Tajumulco",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 204,
+        "nombreMunicipio": "Tejutla",
+        "idDepartamento": 15
+    },
+    {
+        "idMunicipio": 205,
+        "nombreMunicipio": "Almolonga",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 206,
+        "nombreMunicipio": "Cabricán",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 207,
+        "nombreMunicipio": "Cajolá",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 208,
+        "nombreMunicipio": "Cantel",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 209,
+        "nombreMunicipio": "Coatepeque",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 210,
+        "nombreMunicipio": "Colomba Costa Cuca",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 211,
+        "nombreMunicipio": "Concepción Chiquirichapa",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 212,
+        "nombreMunicipio": "El Palmar",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 213,
+        "nombreMunicipio": "Flores Costa Cuca",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 214,
+        "nombreMunicipio": "Génova",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 215,
+        "nombreMunicipio": "Huitán",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 216,
+        "nombreMunicipio": "La Esperanza",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 217,
+        "nombreMunicipio": "Olintepeque",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 218,
+        "nombreMunicipio": "Palestina de Los Altos",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 219,
+        "nombreMunicipio": "Quetzaltenango",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 220,
+        "nombreMunicipio": "Salcajá",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 221,
+        "nombreMunicipio": "San Carlos Sija",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 222,
+        "nombreMunicipio": "San Francisco La Unión",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 223,
+        "nombreMunicipio": "San Juan Ostuncalco",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 224,
+        "nombreMunicipio": "San Martín Sacatepéquez",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 225,
+        "nombreMunicipio": "San Mateo",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 226,
+        "nombreMunicipio": "San Miguel Sigüilá",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 227,
+        "nombreMunicipio": "Sibilia",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 228,
+        "nombreMunicipio": "Zunil",
+        "idDepartamento": 16
+    },
+    {
+        "idMunicipio": 229,
+        "nombreMunicipio": "Momostenango",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 230,
+        "nombreMunicipio": "San Andrés Xecul",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 231,
+        "nombreMunicipio": "San Bartolo",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 232,
+        "nombreMunicipio": "San Cristóbal Totonicapán",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 233,
+        "nombreMunicipio": "San Francisco El Alto",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 234,
+        "nombreMunicipio": "Santa Lucía La Reforma",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 235,
+        "nombreMunicipio": "Santa María Chiquimula",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 236,
+        "nombreMunicipio": "Totonicapán",
+        "idDepartamento": 17
+    },
+    {
+        "idMunicipio": 237,
+        "nombreMunicipio": "Concepción",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 238,
+        "nombreMunicipio": "Nahualá",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 239,
+        "nombreMunicipio": "Panajachel",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 240,
+        "nombreMunicipio": "San Andrés Semetabaj",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 241,
+        "nombreMunicipio": "San Antonio Palopó",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 242,
+        "nombreMunicipio": "San José Chacayá",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 243,
+        "nombreMunicipio": "San Juan La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 244,
+        "nombreMunicipio": "San Lucas Tolimán",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 245,
+        "nombreMunicipio": "San Marcos La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 246,
+        "nombreMunicipio": "San Pablo La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 247,
+        "nombreMunicipio": "San Pedro La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 248,
+        "nombreMunicipio": "Santa Catarina Ixtahuacán",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 249,
+        "nombreMunicipio": "Santa Catarina Palopó",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 250,
+        "nombreMunicipio": "Santa Clara La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 251,
+        "nombreMunicipio": "Santa Cruz La Laguna",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 252,
+        "nombreMunicipio": "Santa Lucía Utatlán",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 253,
+        "nombreMunicipio": "Santa María Visitación",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 254,
+        "nombreMunicipio": "Santiago Atitlán",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 255,
+        "nombreMunicipio": "Sololá",
+        "idDepartamento": 18
+    },
+    {
+        "idMunicipio": 256,
+        "nombreMunicipio": "Champerico",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 257,
+        "nombreMunicipio": "El Asintal",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 258,
+        "nombreMunicipio": "Nuevo San Carlos",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 259,
+        "nombreMunicipio": "Retalhuleu",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 260,
+        "nombreMunicipio": "San Andrés Villa Seca",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 261,
+        "nombreMunicipio": "San Felipe Reu",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 262,
+        "nombreMunicipio": "San Martín Zapotitlán",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 263,
+        "nombreMunicipio": "San Sebastián",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 264,
+        "nombreMunicipio": "Santa Cruz Muluá",
+        "idDepartamento": 19
+    },
+    {
+        "idMunicipio": 265,
+        "nombreMunicipio": "Chicacao",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 266,
+        "nombreMunicipio": "Cuyotenango",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 267,
+        "nombreMunicipio": "Mazatenango",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 268,
+        "nombreMunicipio": "Patulul",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 269,
+        "nombreMunicipio": "Pueblo Nuevo",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 270,
+        "nombreMunicipio": "Río Bravo",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 271,
+        "nombreMunicipio": "Samayac",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 272,
+        "nombreMunicipio": "San Antonio Suchitepéquez",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 273,
+        "nombreMunicipio": "San Bernardino",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 274,
+        "nombreMunicipio": "San Francisco Zapotitlán",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 275,
+        "nombreMunicipio": "San Gabriel",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 276,
+        "nombreMunicipio": "San José El Idolo",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 277,
+        "nombreMunicipio": "San José La Maquina",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 278,
+        "nombreMunicipio": "San Juan Bautista",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 279,
+        "nombreMunicipio": "San Lorenzo",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 280,
+        "nombreMunicipio": "San Miguel Panán",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 281,
+        "nombreMunicipio": "San Pablo Jocopilas",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 282,
+        "nombreMunicipio": "Santa Bárbara",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 283,
+        "nombreMunicipio": "Santo Domingo Suchitepéquez",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 284,
+        "nombreMunicipio": "Santo Tomás La Unión",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 285,
+        "nombreMunicipio": "Zunilito",
+        "idDepartamento": 20
+    },
+    {
+        "idMunicipio": 286,
+        "nombreMunicipio": "Aguacatán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 287,
+        "nombreMunicipio": "Chiantla",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 288,
+        "nombreMunicipio": "Colotenango",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 289,
+        "nombreMunicipio": "Concepción Huista",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 290,
+        "nombreMunicipio": "Cuilco",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 291,
+        "nombreMunicipio": "Huehuetenango",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 292,
+        "nombreMunicipio": "Jacaltenango",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 293,
+        "nombreMunicipio": "La Democracia",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 294,
+        "nombreMunicipio": "La Libertad",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 295,
+        "nombreMunicipio": "Malacatancito",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 296,
+        "nombreMunicipio": "Nentón",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 297,
+        "nombreMunicipio": "San Antonio Huista",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 298,
+        "nombreMunicipio": "San Gaspar Ixchil",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 299,
+        "nombreMunicipio": "San Ildefonso Ixtahuacán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 300,
+        "nombreMunicipio": "San Juan Atitán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 301,
+        "nombreMunicipio": "San Juan Ixcoy",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 302,
+        "nombreMunicipio": "San Mateo Ixtatán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 303,
+        "nombreMunicipio": "San Miguel Acatán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 304,
+        "nombreMunicipio": "San Pedro Nécta",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 305,
+        "nombreMunicipio": "San Pedro Soloma",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 306,
+        "nombreMunicipio": "San Rafael La Independencia",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 307,
+        "nombreMunicipio": "San Rafael Pétzal",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 308,
+        "nombreMunicipio": "San Sebastián Coatán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 309,
+        "nombreMunicipio": "San Sebastián Huehuetenango",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 310,
+        "nombreMunicipio": "Santa Ana Huista",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 311,
+        "nombreMunicipio": "Santa Bárbara",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 312,
+        "nombreMunicipio": "Santa Cruz Barillas",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 313,
+        "nombreMunicipio": "Santa Eulalia",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 314,
+        "nombreMunicipio": "Santiago Chimaltenango",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 315,
+        "nombreMunicipio": "Tectitán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 316,
+        "nombreMunicipio": "Todos Santos Cuchumatán",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 317,
+        "nombreMunicipio": "Unión Cantinil",
+        "idDepartamento": 21
+    },
+    {
+        "idMunicipio": 318,
+        "nombreMunicipio": "Canillá",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 319,
+        "nombreMunicipio": "Chajul",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 320,
+        "nombreMunicipio": "Chicamán",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 321,
+        "nombreMunicipio": "Chiché",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 322,
+        "nombreMunicipio": "Chichicastenango",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 323,
+        "nombreMunicipio": "Chinique",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 324,
+        "nombreMunicipio": "Cunén",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 325,
+        "nombreMunicipio": "Ixcán Playa Grande",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 326,
+        "nombreMunicipio": "Joyabaj",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 327,
+        "nombreMunicipio": "Nebaj",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 328,
+        "nombreMunicipio": "Pachalum",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 329,
+        "nombreMunicipio": "Patzité",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 330,
+        "nombreMunicipio": "Sacapulas",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 331,
+        "nombreMunicipio": "San Andrés Sajcabajá",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 332,
+        "nombreMunicipio": "San Antonio Ilotenango",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 333,
+        "nombreMunicipio": "San Bartolomé Jocotenango",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 334,
+        "nombreMunicipio": "San Juan Cotzal",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 335,
+        "nombreMunicipio": "San Pedro Jocopilas",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 336,
+        "nombreMunicipio": "Santa Cruz del Quiché",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 337,
+        "nombreMunicipio": "Uspantán",
+        "idDepartamento": 22
+    },
+    {
+        "idMunicipio": 338,
+        "nombreMunicipio": "Zacualpa",
+        "idDepartamento": 22
+    }
+]

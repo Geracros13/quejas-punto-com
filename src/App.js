@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 import Axios from "axios";
+import { Dropdown } from 'react-dropdown-now';
+import 'react-dropdown-now/style.css';
+let departamento = require('./data/departamento.json'); //Importo los departamentos
+
+    //Saco todos los nombres de departamento, para imprimirlos en el Dropdown
+    const allDepartamentos = departamento.map((item)=> item.nombre)
+
 
 function App() {
 
+    
     const [descripcionQueja, setDescripcionQueja] = useState("");
-
 
     const submitQueja = ()=>{
         Axios.post("http://localhost:5000/queja/insertar", {
@@ -16,13 +23,47 @@ function App() {
     }
 
 
+    /**Departamento (inicio)*/
+    //Estado para asignar el valor de los Departamentos
+    const [inicio, setInicio] = useState({});
+
+    const idDepartamento =  (valorSeleccionado)=>{
+        //Aqui ontengo el nombre del Departamento seleccionado por el usuario
+        let valorAbuscar =  valorSeleccionado.value
+        //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, y
+        const busqueda = (departametoCoincide)=>{
+            return departametoCoincide.nombre === valorAbuscar
+        }
+        //Aqui paso el array de departamentos, y obtengo el 'id y el nombre' del departamento que el cliente selecciono
+        const resultadoBusqueda = departamento.find(busqueda)
+        return resultadoBusqueda
+    };
+
+    const infoDepartamentos = idDepartamento(inicio)
+    console.log(infoDepartamentos);
+
+    /**Departamento (fin)*/
+
+
+    
+
     return ( 
         <div className="container-queja">
             <div className="form-envio-queja">
-                <label>
-                    Departamento: 
-                <input type="text" />
-                </label>
+                <label>Departamento: </label><br/>
+                    <Dropdown
+                        placeholder="Seleccione un Departamento"
+                        options={allDepartamentos}
+                        value={inicio}
+                        // onSelect={idDepartamento}
+                        onChange={(value)=>setInicio(value)}
+ 
+
+                        // onChange={(value)=>uss(value)}
+                        // onSelect={(value) => console.log('selected!', value)} // always fires once a selection happens even if there is no change
+                            // onClose={(closedBySelection) => console.log('closedBySelection?:', closedBySelection)}
+                    />
+
                 <label>
                     Municipio: 
                 <input type="text" />
@@ -42,7 +83,11 @@ function App() {
                     setDescripcionQueja(e.target.value)
                 }} />
                 <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
+
+                <br/>
+                
             </div>
+
         </div>
     );
 }

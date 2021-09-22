@@ -1,0 +1,214 @@
+[
+    {
+        "idSucursal": 1,
+        "sucurdalDireccion": "23 calle 01-55 zona 12"
+    },
+    {
+        "idSucursal": 2,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 3,
+        "sucurdalDireccion": "23 calle 01-55 zona 12"
+    },
+    {
+        "idSucursal": 4,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 5,
+        "sucurdalDireccion": "18 calle 02-33 zona 1"
+    },
+    {
+        "idSucursal": 6,
+        "sucurdalDireccion": "18 calle 02-33 zona 1"
+    },
+    {
+        "idSucursal": 7,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 8,
+        "sucurdalDireccion": "23 calle 01-55 zona 12"
+    },
+    {
+        "idSucursal": 9,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 10,
+        "sucurdalDireccion": "18 calle 02-33 zona 1"
+    },
+    {
+        "idSucursal": 11,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 12,
+        "sucurdalDireccion": "18 calle 02-33 zona 1"
+    },
+    {
+        "idSucursal": 13,
+        "sucurdalDireccion": "18 calle 02-33 zona 1"
+    },
+    {
+        "idSucursal": 14,
+        "sucurdalDireccion": "6 Av 5-03 "
+    },
+    {
+        "idSucursal": 15,
+        "sucurdalDireccion": "10ma av 5-96 zona 5"
+    },
+    {
+        "idSucursal": 16,
+        "sucurdalDireccion": "7ma calle 2-40"
+    },
+    {
+        "idSucursal": 17,
+        "sucurdalDireccion": "11 av 12-32 zona 5"
+    },
+    {
+        "idSucursal": 18,
+        "sucurdalDireccion": "calle las flores 2-50"
+    },
+    {
+        "idSucursal": 19,
+        "sucurdalDireccion": "avenida principal 03-20"
+    },
+    {
+        "idSucursal": 20,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 21,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 22,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 23,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 24,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 25,
+        "sucurdalDireccion": "9na av 5-30 zona 15"
+    },
+    {
+        "idSucursal": 26,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 27,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 28,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 29,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 30,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 31,
+        "sucurdalDireccion": "9na av 5-30 zona 15"
+    },
+    {
+        "idSucursal": 32,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 33,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 34,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 35,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 36,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 37,
+        "sucurdalDireccion": "9na av 5-30 zona 15"
+    },
+    {
+        "idSucursal": 38,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 39,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 40,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 41,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 42,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 43,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 44,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 45,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 46,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 47,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 48,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 49,
+        "sucurdalDireccion": "9na av 5-30 zona 15"
+    },
+    {
+        "idSucursal": 50,
+        "sucurdalDireccion": "5ta calle 3-6 zona 2"
+    },
+    {
+        "idSucursal": 51,
+        "sucurdalDireccion": "10 av 6-12"
+    },
+    {
+        "idSucursal": 52,
+        "sucurdalDireccion": "8va calle 12-32"
+    },
+    {
+        "idSucursal": 53,
+        "sucurdalDireccion": "9na av 5-30 zona 15"
+    }
+]
