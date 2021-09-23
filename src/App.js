@@ -4,6 +4,7 @@ import Axios from "axios";
 import { Dropdown } from 'react-dropdown-now';
 import 'react-dropdown-now/style.css';
 let departamento = require('./data/departamento.json'); //Importo los departamentos
+let municipio = require('./data/municipios.json'); //Importo los departamentos
 
     //Saco todos los nombres de departamento, para imprimirlos en el Dropdown
     const allDepartamentos = departamento.map((item)=> item.nombre)
@@ -12,21 +13,22 @@ let departamento = require('./data/departamento.json'); //Importo los departamen
 function App() {
 
     
-    const [descripcionQueja, setDescripcionQueja] = useState("");
+    // const [descripcionQueja, setDescripcionQueja] = useState("");
 
-    const submitQueja = ()=>{
-        Axios.post("http://localhost:5000/queja/insertar", {
-            descripcionQueja: descripcionQueja
-        }).then(() => {
-            alert("Queja insertada exitosamente")
-        })
-    }
+    // const submitQueja = ()=>{
+    //     Axios.post("http://localhost:5000/queja/insertar", {
+    //         descripcionQueja: descripcionQueja
+    //     }).then(() => {
+    //         alert("Queja insertada exitosamente")
+    //     })
+    // }
 
 
     /**Departamento (inicio)*/
+
     //Estado para asignar el valor de los Departamentos
     const [inicio, setInicio] = useState({});
-
+    //Funcion para obtener el objeto del departamento seleccionado
     const idDepartamento =  (valorSeleccionado)=>{
         //Aqui ontengo el nombre del Departamento seleccionado por el usuario
         let valorAbuscar =  valorSeleccionado.value
@@ -38,11 +40,26 @@ function App() {
         const resultadoBusqueda = departamento.find(busqueda)
         return resultadoBusqueda
     };
-
+    //Variable contenedora del resultado de la busqueda de departamento
     const infoDepartamentos = idDepartamento(inicio)
-    console.log(infoDepartamentos);
 
     /**Departamento (fin)*/
+
+    
+    /**Municipios (inicio)*/
+
+    if (infoDepartamentos) {
+        const result = municipio.filter(value => value.idDepartamento === infoDepartamentos.id);
+
+        var allMunicipios = result.map((item)=> item.nombreMunicipio)
+        
+
+        console.log(allMunicipios);
+    } else {
+        console.log("If adios");
+    }
+
+    /**Municipios (fin)*/
 
     return ( 
         <div className="container-queja">
@@ -55,10 +72,13 @@ function App() {
                         onChange={(value)=>setInicio(value)}
                     />
 
-                <label>
-                    Municipio: 
-                <input type="text" />
-                </label>
+                <label>Municipio: </label><br/>
+                <Dropdown
+                        placeholder="Seleccione un Municipio"
+                        options={allMunicipios}
+                        // value={inicio}
+                        // onChange={(value)=>setInicio(value)}
+                    />
                 <label>
                     Nombre del comercio: 
                 <input type="text" />
@@ -70,10 +90,10 @@ function App() {
                 <label>
                     Descripcion de la queja:
                 </label>
-                <textarea name="descripcionQueja" onChange={(e)=>{
+                {/* <textarea name="descripcionQueja" onChange={(e)=>{
                     setDescripcionQueja(e.target.value)
                 }} />
-                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
+                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button> */}
 
                 <br/>
                 
