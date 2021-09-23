@@ -105,12 +105,10 @@ function App() {
         return resultadoBusqueda
     };
 
-    //Variable contenedora del resultado de la busqueda de municipios
+    //Variable contenedora del resultado de la busqueda de comercio
     const infoComercios = infComercio(comerci)
 
     console.log(infoComercios);
-
-    // console.log(comerci);
 
     
     /**Comercios (fin)*/
