@@ -5,9 +5,13 @@ import { Dropdown } from 'react-dropdown-now';
 import 'react-dropdown-now/style.css';
 let departamento = require('./data/departamento.json'); //Importo los departamentos
 let municipio = require('./data/municipios.json'); //Importo los departamentos
+let comercio = require('./data/comercio.json'); //Importo los comercios
 
     //Saco todos los nombres de departamento, para imprimirlos en el Dropdown
     const allDepartamentos = departamento.map((item)=> item.nombre)
+    
+    //Saco todos los nombres de departamento, para imprimirlos en el Dropdown
+    const allComercios = comercio.map((item)=> item.nombre)
 
 
 function App() {
@@ -48,18 +52,72 @@ function App() {
     
     /**Municipios (inicio)*/
 
+    //Estado para asignar el valor de los Departamentos
+    const [munic, setMunic] = useState({});
+    
     if (infoDepartamentos) {
-        const result = municipio.filter(value => value.idDepartamento === infoDepartamentos.id);
+        
+        /**
+         * Si viene la informacion del departamento seleccionado
+         * Buscarme todos los municipios de ese departamento
+         */
 
+        const result = municipio.filter(value => value.idDepartamento === infoDepartamentos.id);
+        // Esta variable contiene un array con los nombres de todos los municipios del departamento seleccionado, y la uso para imprimir los municipios en el droplist
         var allMunicipios = result.map((item)=> item.nombreMunicipio)
         
-
-        console.log(allMunicipios);
     } else {
         console.log("If adios");
     }
 
+    const infoMunicipioDepartamento =  (valorSeleccionado)=>{
+        //Aqui ontengo el nombre del municipio seleccionado por el usuario
+        let valorAbuscar =  valorSeleccionado.value
+        //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, y
+        const busqueda = (mucipioCoincide)=>{
+            return mucipioCoincide.nombreMunicipio === valorAbuscar
+        }
+        //Aqui paso el array de municipios, y obtengo el 'id y el nombre' del municipio que el cliente selecciono
+        const resultadoBusqueda = municipio.find(busqueda)
+        return resultadoBusqueda
+    };
+
+    //Variable contenedora del resultado de la busqueda de municipios
+    const infoMunicipios = infoMunicipioDepartamento(munic)
+
+    console.log(infoMunicipios);
+
     /**Municipios (fin)*/
+
+
+    /**Comercios (inicio)*/
+    const [comerci, setComercio] = useState({});
+
+    const infComercio =  (valorSeleccionado)=>{
+        //Aqui ontengo el nombre del Comercio seleccionado por el usuario
+        let valorAbuscar =  valorSeleccionado.value
+        //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, y
+        const busqueda = (comercioCoincide)=>{
+            return comercioCoincide.nombre === valorAbuscar
+        }
+        //Aqui paso el array de Comercios, y obtengo el 'id y el nombre' del Comercio que el cliente selecciono
+        const resultadoBusqueda = comercio.find(busqueda)
+        return resultadoBusqueda
+    };
+
+    //Variable contenedora del resultado de la busqueda de municipios
+    const infoComercios = infComercio(comerci)
+
+    console.log(infoComercios);
+
+    // console.log(comerci);
+
+    
+    /**Comercios (fin)*/
+    
+
+
+
 
     return ( 
         <div className="container-queja">
@@ -73,16 +131,19 @@ function App() {
                     />
 
                 <label>Municipio: </label><br/>
-                <Dropdown
+                    <Dropdown
                         placeholder="Seleccione un Municipio"
                         options={allMunicipios}
-                        // value={inicio}
-                        // onChange={(value)=>setInicio(value)}
+                        value={munic}
+                        onChange={(value)=>setMunic(value)}
                     />
-                <label>
-                    Nombre del comercio: 
-                <input type="text" />
-                </label>
+                <label>Nombre del comercio: </label><br/>
+                    <Dropdown
+                        placeholder="Seleccione un Comercio"
+                        options={allComercios}
+                        value={comerci}
+                        onChange={(value)=>setComercio(value)}
+                    />
                 <label>
                     Direccion: 
                 <input type="text" />
