@@ -18,15 +18,15 @@ let sucursales = require('./data/sucursales.json'); //Importo los comercios
 function App() {
 
     
-    // const [descripcionQueja, setDescripcionQueja] = useState("");
+    const [descripcionQueja, setDescripcionQueja] = useState("");
 
-    // const submitQueja = ()=>{
-    //     Axios.post("http://localhost:5000/queja/insertar", {
-    //         descripcionQueja: descripcionQueja
-    //     }).then(() => {
-    //         alert("Queja insertada exitosamente")
-    //     })
-    // }
+    const submitQueja = ()=>{
+        Axios.post("http://localhost:5000/queja/insertar", {
+            descripcionQueja: descripcionQueja
+        }).then(() => {
+            alert("Queja insertada exitosamente")
+        })
+    }
 
 
     /**Departamento (inicio)*/
@@ -86,7 +86,7 @@ function App() {
     //Variable contenedora del resultado de la busqueda de municipios
     const infoMunicipios = infoMunicipioDepartamento(munic)
 
-    console.log(infoMunicipios);
+    // console.log(infoMunicipios);
 
     /**Municipios (fin)*/
 
@@ -109,13 +109,49 @@ function App() {
     //Variable contenedora del resultado de la busqueda de comercio
     const infoComercios = infComercio(comerci)
 
-    console.log(infoComercios);
+    // console.log(infoComercios);
 
     /**Comercios (fin)*/
 
-    console.log(sucursales);
-    
 
+     /**Sucursales (inicio)*/
+    //  const [sucur, setSucur] = useState({});
+    if (infoMunicipios) {
+        
+        const buscarSucursal =  (valorSeleccionado)=>{
+            //Aqui ontengo el id del Comercio seleccionado por el usuario
+            let valorAbuscar =  valorSeleccionado.idMunicipio
+            console.log(valorAbuscar);
+            //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, 
+            const busqueda = (sucursalCoincide)=>{
+                return sucursalCoincide.idMunicipio === valorAbuscar
+            }
+            //Aqui paso el array de Sucursales, y obtengo el 'id y el nombre' del Comercio que el cliente selecciono
+            const resultadoBusqueda = sucursales.filter(busqueda)
+            return resultadoBusqueda
+        };
+    
+        //Variable contenedora del resultado de la busqueda de comercio
+        var infoSucursales = buscarSucursal(infoMunicipios)
+    
+    }
+ 
+     /**Sucursales (fin)*/
+
+    // console.log(sucursales);
+    
+        //Saco todas las direcciones, para imprimirlos en el Dropdown
+        const allDirection = infoSucursales ? infoSucursales.map((item)=> item.sucursalDireccion) : []
+
+    //     const [boto, setBoto] = useState(true);
+
+    //     allDirection.length !== 0 ? setBoto(false) : console.warn("Cuidado")
+    // console.log(boto);
+    
+    /**Desabilitar el boton si no hay direccion */
+
+    const holas = document.getElementsByClassName("btn-enviar");
+    allDirection.length === 0 ? holas.disabled = true : holas.disabled = false
 
 
 
@@ -144,17 +180,20 @@ function App() {
                         value={comerci}
                         onChange={(value)=>setComercio(value)}
                     />
-                <label>
-                    Direccion: 
-                <input type="text" />
-                </label>
+                <label>Direccion: </label><br/>
+                    <Dropdown
+                        placeholder="Seleccione la Direccion del Comercio"
+                        options={allDirection}
+                        // value={comerci}
+                        // onChange={(value)=>setComercio(value)}
+                    />
                 <label>
                     Descripcion de la queja:
                 </label>
-                {/* <textarea name="descripcionQueja" onChange={(e)=>{
+                <textarea name="descripcionQueja" onChange={(e)=>{
                     setDescripcionQueja(e.target.value)
                 }} />
-                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button> */}
+                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
 
                 <br/>
                 
