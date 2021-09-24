@@ -6,6 +6,7 @@ import 'react-dropdown-now/style.css';
 let departamento = require('./data/departamento.json'); //Importo los departamentos
 let municipio = require('./data/municipios.json'); //Importo los departamentos
 let comercio = require('./data/comercio.json'); //Importo los comercios
+let sucursales = require('./data/sucursales.json'); //Importo los comercios
 
     //Saco todos los nombres de departamento, para imprimirlos en el Dropdown
     const allDepartamentos = departamento.map((item)=> item.nombre)
@@ -110,8 +111,9 @@ function App() {
 
     console.log(infoComercios);
 
-    
     /**Comercios (fin)*/
+
+    console.log(sucursales);
     
 
 
