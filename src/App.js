@@ -94,28 +94,11 @@ function App() {
     /**Comercios (inicio)*/
     const [comerci, setComercio] = useState({});
 
-    const infComercio =  (valorSeleccionado)=>{
-        //Aqui ontengo el nombre del Comercio seleccionado por el usuario
-        let valorAbuscar =  valorSeleccionado.value
-        //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, y
-        const busqueda = (comercioCoincide)=>{
-            return comercioCoincide.nombre === valorAbuscar
-        }
-        //Aqui paso el array de Comercios, y obtengo el 'id y el nombre' del Comercio que el cliente selecciono
-        const resultadoBusqueda = comercio.find(busqueda)
-        return resultadoBusqueda
-    };
-
-    //Variable contenedora del resultado de la busqueda de comercio
-    const infoComercios = infComercio(comerci)
-
-    // console.log(infoComercios);
-
     /**Comercios (fin)*/
 
 
      /**Sucursales (inicio)*/
-    //  const [sucur, setSucur] = useState({});
+
     if (infoMunicipios) {
         
         const buscarSucursal =  (valorSeleccionado)=>{
@@ -141,7 +124,6 @@ function App() {
         //Saco todas las direcciones, para imprimirlos en el Dropdown
         const allDirection = infoSucursales ? infoSucursales.map((item)=> item.sucursalDireccion) : []
 
-
     /**Desabilitar el boton si no hay direccion */
     var estadoBtn = true;
 
@@ -150,7 +132,32 @@ function App() {
     }
     /**Desabilitar el boton si no hay direccion */
 
+    /**Direccion de la sucursal seleccionada */
+    const [sucur, setSucur] = useState({});
 
+    console.log(sucur);
+
+    /**Funcion para sacar el idSucursal seleccionado, para insertar la queja */
+
+    if (infoSucursales) {
+        
+        const buscaridSucursal =  (valorSeleccionado)=>{
+            //Aqui ontengo el id del Comercio seleccionado por el usuario
+            let valorAbuscar =  valorSeleccionado.value
+            
+            //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, 
+            const busqueda = (sucursalCoincide)=>{
+                return sucursalCoincide.sucursalDireccion === valorAbuscar
+            }
+            //Aqui paso el array de Sucursales, y obtengo el 'id y el nombre' del Comercio que el cliente selecciono
+            const resultadoBusqueda = infoSucursales.filter(busqueda)
+            return resultadoBusqueda
+        };
+    
+          //Variable contenedora del idSucursal que me servira para insertar la queja
+          const infoSucur = buscaridSucursal(sucur)
+        console.log(infoSucur);
+    }
     
 
 
@@ -183,8 +190,8 @@ function App() {
                     <Dropdown
                         placeholder="Seleccione la Direccion del Comercio"
                         options={allDirection}
-                        // value={comerci}
-                        // onChange={(value)=>setComercio(value)}
+                        value={sucur}
+                        onChange={(value)=>setSucur(value)}
                     />
                 <label>
                     Descripcion de la queja:
