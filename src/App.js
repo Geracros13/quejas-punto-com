@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './App.css';
 import Axios from "axios";
 import { Dropdown } from 'react-dropdown-now';
@@ -16,18 +16,6 @@ let sucursales = require('./data/sucursales.json'); //Importo los comercios
 
 
 function App() {
-
-    
-    const [descripcionQueja, setDescripcionQueja] = useState("");
-
-    const submitQueja = ()=>{
-        Axios.post("http://localhost:5000/queja/insertar", {
-            descripcionQueja: descripcionQueja
-        }).then(() => {
-            alert("Queja insertada exitosamente")
-        })
-    }
-
 
     /**Departamento (inicio)*/
 
@@ -135,8 +123,6 @@ function App() {
     /**Direccion de la sucursal seleccionada */
     const [sucur, setSucur] = useState({});
 
-    console.log(sucur);
-
     /**Funcion para sacar el idSucursal seleccionado, para insertar la queja */
 
     if (infoSucursales) {
@@ -155,10 +141,32 @@ function App() {
         };
     
           //Variable contenedora del idSucursal que me servira para insertar la queja
-          const infoSucur = buscaridSucursal(sucur)
-        console.log(infoSucur);
-    }
+          var infoSucur = buscaridSucursal(sucur)
+        }
+       
     
+
+    /**
+     * Esta parte es el insert de la queja
+     */
+
+    const [descripcionQueja, setDescripcionQueja] = useState("");
+
+    if (infoSucur) {
+        
+        const valorIdSucursal = infoSucur.map((item)=> item.idSucursal)
+
+        var submitQueja = ()=>{
+            Axios.post("http://localhost:5000/queja/insertar", {
+                descripcionQueja: descripcionQueja,
+                idSucursal: valorIdSucursal.toString()
+            }).then(() => {
+                alert("Queja insertada exitosamente")
+            })
+        }
+    }
+
+
 
 
     return ( 
