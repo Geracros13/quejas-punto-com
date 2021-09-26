@@ -121,7 +121,7 @@ function App() {
         const buscarSucursal =  (valorSeleccionado)=>{
             //Aqui ontengo el id del Comercio seleccionado por el usuario
             let valorAbuscar =  valorSeleccionado.idMunicipio
-            console.log(valorAbuscar);
+            
             //Esta funcion me sirve para realizar la coincidencia de lo que quiero buscar, 
             const busqueda = (sucursalCoincide)=>{
                 return sucursalCoincide.idMunicipio === valorAbuscar
@@ -138,21 +138,20 @@ function App() {
  
      /**Sucursales (fin)*/
 
-    // console.log(sucursales);
-    
         //Saco todas las direcciones, para imprimirlos en el Dropdown
         const allDirection = infoSucursales ? infoSucursales.map((item)=> item.sucursalDireccion) : []
 
-    //     const [boto, setBoto] = useState(true);
 
-    //     allDirection.length !== 0 ? setBoto(false) : console.warn("Cuidado")
-    // console.log(boto);
-    
+    /**Desabilitar el boton si no hay direccion */
+    var estadoBtn = true;
+
+    if(allDirection.length !== 0){
+        estadoBtn = false
+    }
     /**Desabilitar el boton si no hay direccion */
 
-    const holas = document.getElementsByClassName("btn-enviar");
-    allDirection.length === 0 ? holas.disabled = true : holas.disabled = false
 
+    
 
 
     return ( 
@@ -193,7 +192,7 @@ function App() {
                 <textarea name="descripcionQueja" onChange={(e)=>{
                     setDescripcionQueja(e.target.value)
                 }} />
-                <button className="btn-enviar" onClick={submitQueja}>Registrar queja</button>
+                <button className="btn-enviar" onClick={submitQueja} disabled={estadoBtn}>Registrar queja</button>
 
                 <br/>
                 
