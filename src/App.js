@@ -55,9 +55,7 @@ function App() {
         // Esta variable contiene un array con los nombres de todos los municipios del departamento seleccionado, y la uso para imprimir los municipios en el droplist
         var allMunicipios = result.map((item)=> item.nombreMunicipio)
         
-    } else {
-        console.log("If adios");
-    }
+    } 
 
     const infoMunicipioDepartamento =  (valorSeleccionado)=>{
         //Aqui ontengo el nombre del municipio seleccionado por el usuario
@@ -73,8 +71,6 @@ function App() {
 
     //Variable contenedora del resultado de la busqueda de municipios
     const infoMunicipios = infoMunicipioDepartamento(munic)
-
-    // console.log(infoMunicipios);
 
     /**Municipios (fin)*/
 
@@ -166,7 +162,7 @@ function App() {
         }
     }
 
-
+    /**/
 
 
     return ( 
@@ -204,9 +200,12 @@ function App() {
                 <label>
                     Descripcion de la queja:
                 </label>
-                <textarea name="descripcionQueja" onChange={(e)=>{
-                    setDescripcionQueja(e.target.value)
-                }} />
+                <textarea 
+                    name="descripcionQueja" 
+                    onChange={(e)=>{
+                        setDescripcionQueja(e.target.value)
+                    }} 
+                />
                 <button className="btn-enviar" onClick={submitQueja} disabled={estadoBtn}>Registrar queja</button>
 
                 <br/>
