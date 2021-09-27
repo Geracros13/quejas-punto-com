@@ -153,7 +153,7 @@ function App() {
         const valorIdSucursal = infoSucur.map((item)=> item.idSucursal)
 
         var submitQueja = ()=>{
-            Axios.post("http://localhost:5000/queja/insertar", {
+            Axios.post("https://backend-quejas-punto-com.herokuapp.com/queja/insertar", {
                 descripcionQueja: descripcionQueja,
                 idSucursal: valorIdSucursal.toString()
             }).then(() => {
