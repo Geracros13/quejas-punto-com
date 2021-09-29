@@ -7,7 +7,7 @@ function Header() {
     return (
         <>
             <div className="header">
-                <a href={url}>Ver Estadisticas</a>
+                <a href={url} target="_blank" rel="noreferrer">Ver Estadisticas</a>
             </div>
             <div className="header-logo">
                 <img src={logo} alt="" />
